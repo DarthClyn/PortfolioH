@@ -2,12 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
-import pg from "../assets/projects/pg.png";
-import project from "../assets/projects/project.jpeg";
-import lift from "../assets/projects/lift.png";
-
-import kickstart from "../assets/projects/kickstart.png";
-
+import port from "../assets/projects/Portfolio.png";
+import sup from "../assets/projects/Supplychain.png";
+import med from "../assets/projects/Medical.png";
+import nft from "../assets/projects/nft.png";
 const Projects = () => {
   return (
     <Container fluid className="project-section">
@@ -22,7 +20,7 @@ const Projects = () => {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={lift}
+              imgPath={med}
               isBlog={false}
               title="Decentralised Medical Record Management"
               description= {`Technologies & Tools:
@@ -42,7 +40,7 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={project}
+              imgPath={sup}
               isBlog={false}
               title="Decentralised Supplychain Tracking System"
               description={`Technologies & Tools:
@@ -60,7 +58,7 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={kickstart}
+              imgPath={nft}
               isBlog={false}
               title="Decentralised NFT Marketplace"
               description={`Technologies & Tools:
@@ -79,7 +77,7 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={pg}
+              imgPath={port}
               isBlog={false}
               title="Project Portfolio"
               description={`Technologies & Tools:
@@ -94,7 +92,7 @@ const Projects = () => {
                 - Dynamic API integration for GitHub and LeetCode stats.
                 - Portfolio of projects with deployment links and GitHub repositories.
                 - Contact page with easy-to-use forms and links.`}
-                 ghLink="https://github.com/19sajib/mern-blog-app"
+                 ghLink="https://github.com/DarthClyn/PortfolioH"
             />
           </Col>
 
