@@ -25,7 +25,16 @@ const Projects = () => {
               imgPath={lift}
               isBlog={false}
               title="Decentralised Medical Record Management"
-              description="This online ride-sharing platform boasts a responsive front-end design, complete with an admin panel built using React and Material-UI. With the integration of Google Maps API, users can easily access directions on the map. The platform allows for full CURD functionality on profiles and posts, and users can confirm or cancel a ride from a post and message each other after confirmation. Additionally, users can easily reset their password. The back-end is powered by a Node Express server and utilizes MongoDB for the database management."
+              description= {`Technologies & Tools:
+              - Blockchain: Ensures data immutability and decentralization.
+              - Smart Contracts: Implements privacy controls and user-specific access.
+              - IPFS (InterPlanetary File System): Decentralized document storage with cryptographic security.
+              - Frontend Framework: User-friendly interface for healthcare providers (React, Angular, or similar).
+              Features:
+              - Secure patient data management.
+              - Cryptographic privacy mechanisms for sensitive data.
+              - Efficient access control using blockchain.
+              - Simplified user interface for non-technical users.`}
               ghLink="https://github.com/DarthClyn/Medical-Record-Managment-System"
               demoLink="https://medical-record-managment-system-git-main-darthclyns-projects.vercel.app"
               />
@@ -36,7 +45,14 @@ const Projects = () => {
               imgPath={project}
               isBlog={false}
               title="Decentralised Supplychain Tracking System"
-              description="This platform features a responsive interface built with Reactjs and CSS, allowing users to easily manage their profiles and posts through CRUD activities. The option to follow other users and interact with their posts (like or dislike) is also available, with suggestions for new users to follow. Users can only view posts from their followed users and can only engage in chat with those they follow. The backend is powered by Nodejs and Expressjs server, while MongoDB is utilized as the database."
+              description={`Technologies & Tools:
+                - Blockchain: Provides transparency through immutable records.
+                - Smart Contracts: Automates product traceability and verifications.
+                - Frontend Framework: Dashboard for real-time tracking.
+                Features:
+                - Real-time shipment tracking.
+                - Enhanced transparency with immutable logs.
+                - Smart contracts ensuring product authenticity and traceability.`}
               ghLink="https://github.com/DarthClyn/trustytransi-supplychain"
               demoLink="https://trustytransit-supplychain-git-main-darthclyns-projects.vercel.app"
             />
@@ -47,8 +63,17 @@ const Projects = () => {
               imgPath={kickstart}
               isBlog={false}
               title="Decentralised NFT Marketplace"
-              description="This ecommerce website utilizes a REST API built with Nodejs and Expressjs, allowing for easy CRUD operations on user profiles, products and admin panel. The user interface is designed for efficient product management and includes a complete purchase process. The admin panel, accessible for CRUD on users and products, includes a chart for statistics display. Stripe API is integrated to handle customer payments. The website uses MongoDB and Firebase as the database."
-              ghLink="https://github.com/DarthClyn/Street_NFT_Marketplace"
+              description={`Technologies & Tools:
+                - Blockchain: Ethereum or similar network for decentralized NFT operations.
+                - ERC-721 Smart Contracts: NFT functionality, ownership, and trading.
+                - WalletConnect: Integration with multiple wallets for transactions.
+                - Frontend Framework: React, Vue, or Angular for a responsive UI.
+                Features:
+                - Decentralized platform for minting, buying, and selling NFTs.
+                - Portfolio management for asset tracking.
+                - Value calculation tools for user assets.
+                - Wallet compatibility with popular crypto wallets.`}
+                ghLink="https://github.com/DarthClyn/Street_NFT_Marketplace"
               demoLink="https://street-nft-marketplace-git-main-darthclyns-projects.vercel.app/" />
           </Col>
 
@@ -56,9 +81,20 @@ const Projects = () => {
             <ProjectCard
               imgPath={pg}
               isBlog={false}
-              title="Blog Website"
-              description="This blogging application features a RESTful API server built with Nodejs and Expressjs. The data is retrieved from the API server and displayed on a user-friendly interface designed using React, Redux, and styled-components for a seamless experience."
-              ghLink="https://github.com/19sajib/mern-blog-app"
+              title="Project Portfolio"
+              description={`Technologies & Tools:
+                - React: For building an interactive and responsive interface.
+                - APIs:
+                  - GitHub API: Displays project stats and repository details.
+                  - LeetCode API: Shows coding statistics and achievements.
+                - HTML, CSS, JavaScript: For designing and styling the website.
+                Features:
+                - Overview of personal details, skills, and tools used.
+                - Resume download functionality.
+                - Dynamic API integration for GitHub and LeetCode stats.
+                - Portfolio of projects with deployment links and GitHub repositories.
+                - Contact page with easy-to-use forms and links.`}
+                 ghLink="https://github.com/19sajib/mern-blog-app"
             />
           </Col>
 
