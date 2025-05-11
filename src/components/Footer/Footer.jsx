@@ -19,11 +19,11 @@ const Footer = () => {
           </Col>
           <Col md="4" className="footer-copywright">
             <span>Copyright © {year}</span>
-            <img src={logo} className="img-fluid logo" alt="brand" />
+            <img src={logo} alt="brand" style={{ height: '70px', width: 'auto' }} />
           </Col>
           <Col md="4" className="footer-body">
             <ul className="footer-icons">
-              <li className="social-icons">
+              <li className="social-icons" >
                 <a
                   href="https://github.com/DarthClyn"
                   style={{ color: "white" }}
