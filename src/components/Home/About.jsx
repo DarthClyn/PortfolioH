@@ -32,8 +32,8 @@ const About = () => {
                   <br />
                   <br />I am proficient in
                     <b className="yellow"> Python, </b>
-                    as well as have knowledge in programming languages such as Solidity, Javascript,  
-                  <b className="yellow"> C++ and Java,.</b>
+                    as well as have knowledge in programming languages such as   
+                  <b className="yellow"> Solidity, Javascript, C++ and Java,.</b>
                   <br />
                   <br />
                   I have a passion for working
